@@ -159,3 +159,42 @@ body {
     color: var(--cinza-secundario);
     margin: 1em 0;
 }
+
+@media screen and (max-width: 768px) {
+    .conteiner {
+        display: block;
+        background-image: none;
+        height: auto;
+        margin-bottom: 10em;
+    }
+
+    .conteiner__imagem {
+        width: 50vw;
+    }
+
+    .conteiner__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        margin-bottom: 10em;
+        text-align: center;
+    }
+    
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__titulo {
+        padding: 10px;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+}
